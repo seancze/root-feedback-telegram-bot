@@ -1,0 +1,5 @@
+misc.txt
+__pycache__/
+test.py
+.env
+client_secret.json
