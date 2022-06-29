@@ -3,3 +3,5 @@ __pycache__/
 test.py
 .env
 client_secret.json
+telebot-secret
+telebot-secret.pub
