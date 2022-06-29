@@ -1,5 +1,19 @@
 # root-feedback-telegram-bot
 
+## Deployment
+
+### Prerequisite files
+
+1. A `.env` file (Contact @seancze on Telegram for more details)
+2. A `client_secret.json` file which you ought to be able to retrieve by following [this StackOverflow link](https://stackoverflow.com/questions/40136699/using-google-api-for-python-where-do-i-get-the-client-secrets-json-file-from)
+
+### Deployment
+
+1. Download required packages - `pip -r requirements.txt`
+2. Deploy the bot - `python bot.py`
+
+Note: To deploy on DigitalOcean, follow [this](https://www.infotelbot.com/2020/12/Host-Telegram-Bot-on-Digital-Ocean.html) very helpful tutorial
+
 ## Current Features
 
 1. Create a new feedback
