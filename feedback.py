@@ -224,7 +224,12 @@ def send_email(update, context):
     }
     context.dispatcher.run_async(requests.post, url, data)
 
-    message = "Feedback sent! Please give us up to 5 working days to get back to you. Thank you! Press /start to continue\n\nNote: If you do not receive an email within 5min, please send in your feedback again. Thank you!"
+    message = '''Feedback sent! Please give us up to 5 working days to get back to you. Thank you! Press /start to continue
+    
+Note: If you do not receive an email within 5min, please send in your feedback again. Thank you!
+
+<i>As it is currently finals season for all SUTDents, our directors included, we request for your patience during this period as we may not be able to get back to you immediately.</i>
+'''
 
     try:
         query.edit_message_text(text=message, parse_mode=ParseMode.HTML)
