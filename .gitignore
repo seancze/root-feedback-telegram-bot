@@ -1,7 +1,9 @@
 misc.txt
 __pycache__/
+venv/
 test.py
 .env
 client_secret.json
+client_secret-deprecated.json
 telebot-secret
 telebot-secret.pub

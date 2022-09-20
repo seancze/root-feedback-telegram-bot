@@ -5,7 +5,7 @@
 ### Prerequisite files
 
 1. A `.env` file (Contact @seancze on Telegram for more details)
-2. A `client_secret.json` file which you ought to be able to retrieve by following [this StackOverflow link](https://stackoverflow.com/questions/40136699/using-google-api-for-python-where-do-i-get-the-client-secrets-json-file-from)
+2. A `client_secret.json` file which you ought to be able to retrieve by following [this Medium link](https://owaisqureshi.medium.com/access-google-sheets-api-in-python-using-service-account-3a0c6d89d5fc)
 
 ### Deployment
 
